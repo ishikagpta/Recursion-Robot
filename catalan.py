@@ -20,7 +20,7 @@ class Catalan:
 
         return c
 
-# used for command prompt input and result output
+# used for command prompt input and result output    
 input =int(list(sys.argv)[1])
 Number = Catalan(input)
 print(Number.CatalanNumber(input))
