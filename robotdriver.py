@@ -1,7 +1,7 @@
 from robot import *
 from point import *
 
-# takes in user input for robot and treasure position, prints out all the shortest routes in between
+# takes in user input for robot and treasure position, prints out all the shortest routes in between    
 # them and number of routes
 def main():
 
