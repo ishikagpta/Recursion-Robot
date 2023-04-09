@@ -29,7 +29,7 @@ class Robot:
                 self.find_shortest_paths(robot_x, robot_y + 1, treasure_x, treasure_y, direction + "N")
 
     # This function takes a robot object as an argument and prints all the routes between that robot and the treasure
-    # along with the number of paths.
+    # along with the number of paths.   
     def print_routes(self):
 
         robot_x, robot_y, treasure_x, treasure_y = \
